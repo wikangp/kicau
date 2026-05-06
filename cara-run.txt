@@ -1,0 +1,42 @@
+============================================================
+       PANDUAN SETUP DAN MENJALANKAN PROJECT "KICAW"
+============================================================
+
+Project ini dibuat menggunakan React (Vite) dan MediaPipe untuk 
+deteksi tangan secara real-time. Ikuti langkah-langkah di bawah 
+ini untuk menjalankan project di komputer Anda.
+
+PRASYARAT:
+- Sudah terinstall Node.js (versi 18 atau terbaru)
+- Koneksi internet (untuk mendownload AI models dari MediaPipe)
+
+LANGKAH-LANGKAH:
+
+1. Ekstrak file project (jika dalam bentuk zip).
+2. Buka terminal atau Command Prompt (CMD).
+3. Masuk ke direktori project:
+   cd path/to/kicaw
+
+4. Install semua dependensi yang dibutuhkan:
+   npm install
+
+5. Jalankan project dalam mode pengembangan:
+   npm run dev
+
+6. Setelah muncul link di terminal (biasanya http://localhost:5173), 
+   tekan 'o' atau buka browser dan masukkan link tersebut.
+
+7. CARA PENGGUNAAN:
+   - Klik tombol "MULAI SEKARANG" di halaman utama.
+   - Izinkan browser untuk mengakses Kamera/Webcam.
+   - Tunggu sebentar hingga indikator "Memuat AI Hand Tracking..." hilang.
+   - Arahkan tangan Anda ke dalam kotak dashed yang muncul di layar.
+   - Musik akan otomatis diputar dan ikon video akan muncul secara massal.
+
+8. TIPS:
+   - Pastikan pencahayaan ruangan cukup agar AI dapat mendeteksi tangan dengan akurat.
+   - Gunakan satu tangan saja untuk masuk ke area kotak deteksi.
+
+============================================================
+                   TERIMA KASIH
+============================================================
